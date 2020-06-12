@@ -1,6 +1,7 @@
 from __future__ import print_function
 import aerospike
 import logging
+from aerospike import exception as ex
 
 
 logging.basicConfig(format='%(asctime)s %(message)s', level=logging.DEBUG)
